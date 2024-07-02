@@ -62,6 +62,7 @@
   position: relative;
   display: block;
   margin-left: 60px;
+  
 }
 
 .p {
@@ -114,7 +115,7 @@
   background-color: blue;
   color: white;
   border-radius: 5px;
-
+  font-size: 1rem;
   position: relative;
 }
 
@@ -130,6 +131,7 @@
   width: 25px;
   height: 25px;
   background-color: #ffffff;
+
 }
 
 .images-container {
@@ -156,29 +158,34 @@
 }
 
 .promotion {
-  display: inline-block;
-  
+   
   width: 210px;
   height: 80px;
   padding-inline: auto;
   margin-top: 210px;
   margin-left: 130px;
-  color: white;
   background: #7d7afb;
   border-radius: 10px;
   position: absolute;
-  justify-content: center;
-  align-items: center;
-}
-.checklist {
-  
-  padding-inline: 15px;
-  font-size: 1em;
-  list-style-type: none;
-  
-}
-.checklist {
-  margin-bottom: 10px  
- 
+
 }
 
+.checklist {
+  padding-inline: 20px;
+  font-size: 1rem;
+  list-style-type: none;
+  display: inline-block;
+   justify-content: center;
+  align-items: center;
+  
+  
+}
+
+li {
+  
+  list-style-position: inside;
+  list-style-image: url(/images/icons8-checkmark-24.png);
+  color: #eeeeee;
+ 
+  
+}
